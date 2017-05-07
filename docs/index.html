@@ -1,20 +1,21 @@
 <html>
 <head>
 
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-98519561-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
+    ga('create', 'UA-98519561-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript">
     google.charts.load('current', {packages: ['corechart']});
+    
+/*    
     var visualization;
 
     function draw() {
@@ -49,12 +50,20 @@
       var container = document.getElementById('toolbar_div');
       google.visualization.drawToolbar(container, components);
     };
-
+*/
     google.charts.setOnLoadCallback(draw);
   </script>
 </head>
 <body>
+  <!--
   <div id="visualization_div" style="width: 270px; height: 200px;"></div>
   <div id="toolbar_div"></div>
+  -->
+  
+  <iframe width="1000" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;viz=GVIZ&amp;t=GRAPH&amp;gc=true&amp;gd=true&amp;sdb=1&amp;rmax=100000&amp;q=select+col11%2C+col2%2C+col5+from+1NqzucSRW4SQT34Bbkg7GXcPgD0UPnjsM7yF85xnl&amp;qrs=+where+col11+%3E%3D+&amp;qre=+and+col11+%3C%3D+&amp;qe=&amp;uiversion=2&amp;state=%7B%22ps%22%3A%221_1a_-6a_60_%22%2C%22cx%22%3A329.9001061822907%2C%22cy%22%3A-184.06629550745444%2C%22sw%22%3A1688.9553847035142%2C%22sh%22%3A807.8290759708407%2C%22z%22%3A-1.477163563995573%7D&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=1000&amp;height=500"></iframe>
+  
+  <iframe width="1000" height="500" frameborder="0" src="https://docs.google.com/spreadsheets/d/1xHf1tKR7JSfFWaHHR_MB4B927KWwwjHIs1rJgLbzdGQ/pubchart?oid=1447236561&amp;format=interactive"></iframe>
+
+  
 </body>
 </html>

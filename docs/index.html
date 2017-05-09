@@ -1,4 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
 
@@ -66,23 +65,58 @@
     <iframe width="1000" height="500" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?containerId=googft-gviz-canvas&amp;viz=GVIZ&amp;t=GRAPH&amp;gc=true&amp;gd=true&amp;sdb=1&amp;rmax=100000&amp;q=select+col11%2C+col2%2C+col5+from+1NqzucSRW4SQT34Bbkg7GXcPgD0UPnjsM7yF85xnl&amp;qrs=+where+col11+%3E%3D+&amp;qre=+and+col11+%3C%3D+&amp;qe=&amp;uiversion=2&amp;state=%7B%22ps%22%3A%221_1a_-6a_60_%22%2C%22cx%22%3A329.9001061822907%2C%22cy%22%3A-184.06629550745444%2C%22sw%22%3A1688.9553847035142%2C%22sh%22%3A807.8290759708407%2C%22z%22%3A-1.477163563995573%7D&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=1000&amp;height=500"></iframe>
     <br>
       <p>
-            Write 1000 in the 'nodes' field, then press enter to see the Constellation of Projects
+            <b>Write 1000 in the 'nodes' field, then press enter to see the Constellation of Projects</b>
       </p>
   </div>
+  
+    <br>
+  <br>
+    <br>
+  <br>
   
   <!--
   <iframe width="1000" height="500" frameborder="0" src="https://docs.google.com/spreadsheets/d/1xHf1tKR7JSfFWaHHR_MB4B927KWwwjHIs1rJgLbzdGQ/pubchart?oid=1447236561&amp;format=interactive"></iframe>
   -->
+
+  <iframe id="ytplayer" type="text/html" width="800" height="600"
+  src="https://www.youtube.com/embed/ZNxaD4hnfWA?autoplay=0&origin=https://rogeorge.github.com"
+  frameborder="0"></iframe>
+  
+  <div id="ytplayer"></div>
+
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      height: '600',
+      width: '800',
+      videoId: 'ZNxaD4hnfWA'
+    });
+  }
+</script>
+
   <br>
   <br>
   
   <div>
-      <iframe width="1275" height="738" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/129Wy7kMwHF0X4CCU3YF0BuzBiEgqOwwUvijRFoizu_8/pubchart?oid=770805517&amp;format=interactive"></iframe>
-      <p>
-        <br>Interactive visualisation for the Leaderboard Awards of the first round
-      </p>
-  <div>
+      <!--
+      <iframe width="1275" height="737" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/129Wy7kMwHF0X4CCU3YF0BuzBiEgqOwwUvijRFoizu_8/pubchart?oid=770805517&amp;format=interactive"></iframe>
+      <a href="https://docs.google.com/spreadsheets/d/129Wy7kMwHF0X4CCU3YF0BuzBiEgqOwwUvijRFoizu_8/pubchart?oid=770805517&format=interactive"><img alt=""XOR Hobby", a Vintage Z80 Computer Prototype" src="https://cdn.hackaday.io/images/2572221402262586660.jpg"></a>
+      -->
+      <a href="https://docs.google.com/spreadsheets/d/129Wy7kMwHF0X4CCU3YF0BuzBiEgqOwwUvijRFoizu_8/pubchart?oid=770805517&format=interactive">CLICK this link for to interact with Leaderboard Awards data from the first round.</a>
+      <br>
+      <br>
+  </div>
 
+  
   <div>
       <p>
         This is work in progress. The webpage is a draft to check if the visualisations are working, and the data might be old or incomplete, so please don't call for the lawyers yet!
